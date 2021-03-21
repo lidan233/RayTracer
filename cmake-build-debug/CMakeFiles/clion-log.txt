@@ -1,0 +1,26 @@
+/home/lidan/Desktop/clion-2020.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lidan/Desktop/RayTracer/PathTracer
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:7 (include):
+  include could not find load file:
+
+    cmake/lidanBase.cmake
+
+
+-- include LidanBuild.cmake
+-- Add /home/lidan/Desktop/RayTracer/PathTracer/common;
+-- /home/lidan/Desktop/RayTracer/PathTracer/common/AABB.h/home/lidan/Desktop/RayTracer/PathTracer/common/Camera.h/home/lidan/Desktop/RayTracer/PathTracer/common/EigenLidan.h/home/lidan/Desktop/RayTracer/PathTracer/common/Model.h/home/lidan/Desktop/RayTracer/PathTracer/common/Ray.h/home/lidan/Desktop/RayTracer/PathTracer/common/Texture.h/home/lidan/Desktop/RayTracer/PathTracer/common/perlin.h/home/lidan/Desktop/RayTracer/PathTracer/common/stb_image.h/home/lidan/Desktop/RayTracer/PathTracer/common/stb_image_write.h/home/lidan/Desktop/RayTracer/PathTracer/common/usingImage.h/home/lidan/Desktop/RayTracer/PathTracer/common/util.h
+-- Configuring incomplete, errors occurred!
+See also "/home/lidan/Desktop/RayTracer/PathTracer/cmake-build-debug/CMakeFiles/CMakeOutput.log".
